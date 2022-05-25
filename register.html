@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <a href="./welcome.html"><input type="button" value="Welcome" style="margin-right: 15px;"></a>
+    <a href="./aboutme.html"><input type="button" value="About Me" style="margin-right: 15px;"></a>
+    <a href="./contactme.html"><input type="button" value="Contact Me" style="margin-right: 15px;"></a>
+    <a href="./login.html"><input type="button" value="Login" style="margin-right: 15px;">
+    </a>
+
+    <form>
+        <div class="container">
+            <h1>Register</h1>
+            <p>If you haven't created an account with us, fill this form to create one now!</p><hr>
+            <label for="fname"><b>First Name</b></label><br>
+            <input type="text" placeholder="Enter First Name" name="fname" id="fname" required><hr>
+
+            <label for="lname"><b>Last Name</b></label><br>
+        <input type="text" placeholder="Enter Last Name" name="lname" id="lname" required><hr>
+
+        <label for="Phone Number"><b>Phone Number</b></label><br>
+        <input type="number" placeholder="Enter Phone Number" name="Phone Number" id="Phone Number" required><hr>
+
+        <label for="Gender"><b>Gender</b></label><br>
+        <select>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="Rather Not Say">Rather Not Say</option>
+        </select><hr>
+
+        <label for="Country"><b>Country</b></label><br>
+        <input type="text" placeholder="Type Country" name="Country" id="Country" required><hr>
+
+        <label for="State/Province"><b>State/Province</b></label><br>
+        <input type="text" placeholder="State/Province" name="State/Province" id="State/Province" required><hr>
+
+        <label for="username"><b>Username</b></label><br>
+        <input type="text" placeholder="Username" name="username" id="username" required><hr>
+
+        <label for="psw"><b>Password</b></label><br>
+<input type="psw" placeholder="Input Password" name="psw" id="psw" required><hr>
+
+       <label for="psw-repeat"><b>Repeat Password</b></label><br>
+       <input type="psw-repeat" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+<p> By creating an account you agree to receive emails from us.
+       <button type="submit" class="submitbtn">Sign Up</button></p>
+        </div>
+
+        <div class="container signin"><p>Already have an account?<a href="./login.html">Sign In</a></p></div>
+    </form>
+</body>
+</html>
